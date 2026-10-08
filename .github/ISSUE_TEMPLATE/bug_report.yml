@@ -1,0 +1,32 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open the Council room\n2. ..."
+  - type: input
+    id: provider
+    attributes:
+      label: Provider and model
+      placeholder: "anthropic / claude-sonnet-4-6"
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options: [Live demo (Vercel), Local (npm run dev), Docker, Other]
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or console output
+      description: Never paste API keys.
+      render: text

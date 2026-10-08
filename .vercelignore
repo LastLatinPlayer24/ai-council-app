@@ -1,0 +1,18 @@
+# Lo que no hace falta subir a Vercel (el build usa package.json, src/, public/,
+# api/ y backend/*.py).
+backend/venv/
+backend/test_main.py
+**/__pycache__/
+*.pyc
+e2e/
+coverage/
+playwright-report/
+test-results/
+.kilo/
+.env
+.env.*
+!.env.example
+ai-council.html
+docs/
+scripts/
+e2e/
