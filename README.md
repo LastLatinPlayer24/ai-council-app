@@ -1,6 +1,8 @@
 <div align="center">
 
-# ⬡ AI Council
+<img src="docs/logo.png" alt="AI Council logo: a glowing crystal ringed by five agent orbs" width="140">
+
+# AI Council
 
 **A virtual meeting room where AI agents from different providers debate your question, answer each other by name, vote on decisions — and a chairman writes the resolution.**
 
